@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "首页",
-  "usingComponents": {
-    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
-    "u-calendar": "/node-modules/uview-ui/components/u-calendar/u-calendar",
-    "sxf-footer": "/components/footer/footer"
-  }
-}

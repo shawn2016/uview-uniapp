@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "订单",
-  "usingComponents": {
-    "sxf-footer": "/components/footer/footer"
-  }
-}

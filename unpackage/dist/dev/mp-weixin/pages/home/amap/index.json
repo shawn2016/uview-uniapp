@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "高德地图",
-  "usingComponents": {
-    "sxf-amap": "/components/amap/amap"
-  }
-}

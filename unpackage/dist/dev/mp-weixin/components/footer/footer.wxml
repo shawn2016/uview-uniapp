@@ -1,1 +1,0 @@
-<view><u-tabbar bind:input="__e" vue-id="6ef871a2-1" list="{{list}}" hide-tab-bar="{{true}}" value="{{current}}" data-event-opts="{{[['^input',[['__set_model',['','current','$event',[]]]]]]}}" bind:__l="__l"></u-tabbar></view>
