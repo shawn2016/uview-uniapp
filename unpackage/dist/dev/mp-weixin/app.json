@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home/index",
+    "pages/order/order/index",
+    "pages/mine/mine/index",
+    "pages/home/amap/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "随油",
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#FA6400",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home/index",
+        "text": "随油",
+        "iconPath": "/static/images/tabbar/home@2x.png",
+        "selectedIconPath": "/static/images/tabbar/home_ac@2x.png"
+      },
+      {
+        "pagePath": "pages/order/order/index",
+        "text": "订单",
+        "iconPath": "/static/images/tabbar/order@2x.png",
+        "selectedIconPath": "/static/images/tabbar/order_ac@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine/index",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar/mine@2x.png",
+        "selectedIconPath": "/static/images/tabbar/mine_ac@2x.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于随油定位服务。"
+    }
+  },
+  "usingComponents": {}
+}

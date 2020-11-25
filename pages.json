@@ -1,0 +1,68 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^sxf-(.*)": "@/components/$1/$1.vue"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#FA6400",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"position": "bottom",
+		"list": [
+			{
+				"pagePath": "pages/home/home/index",
+				"text": "随油",
+				"iconPath": "/static/images/tabbar/home@2x.png",
+				"selectedIconPath": "/static/images/tabbar/home_ac@2x.png"
+			},
+			{
+				"pagePath": "pages/order/order/index",
+				"text": "订单",
+				"iconPath": "/static/images/tabbar/order@2x.png",
+				"selectedIconPath": "/static/images/tabbar/order_ac@2x.png"
+			},
+			{
+				"pagePath": "pages/mine/mine/index",
+				"text": "我的",
+				"iconPath": "/static/images/tabbar/mine@2x.png",
+				"selectedIconPath": "/static/images/tabbar/mine_ac@2x.png"
+			}
+		]
+	},
+	"pages": [
+		{
+			"path": "pages/home/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/order/order/index",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/mine/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/home/amap/index",
+			"style": {
+				"navigationBarTitleText": "高德地图"
+			}
+		}
+	],
+	"globalStyle": {
+		// #ifdef  H5
+		"navigationStyle": "custom",
+		// #endif
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "随油",
+		"backgroundColor": "#efefef"
+	}
+}
